@@ -74,11 +74,12 @@ public class BatailleLANvale
     public static void clearScreen() {  
         System.out.print("\033[H\033[2J");  
         System.out.flush();  
-    }  
-  
+    }
+    
     public static String repeat(int count, String with) {
         return new String(new char[count]).replace("\0", with);
     }
+
 
     public static void drawFrame(String text, String color, boolean rounded){
         text = text.toUpperCase();
