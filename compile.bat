@@ -1,1 +1,1 @@
-javac -encoding UTF-8 BatailleLANvale.javac
+javac -encoding UTF-8 BatailleLANvale.java

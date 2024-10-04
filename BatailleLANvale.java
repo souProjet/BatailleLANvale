@@ -164,7 +164,7 @@ public class BatailleLANvale
         try
         {
             dos.writeUTF(username + ":0:" + navirePosLigne + ':'+ navirePosColonne);
-            
+
         }
         catch(IOException e){}
     }
